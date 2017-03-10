@@ -1,0 +1,48 @@
+.public-container{
+    position:relative;
+    margin:0 auto;
+    width:1200px;
+}
+
+.public-container2{
+    position:relative;
+    margin:0 auto;
+    width:700px;
+}
+
+.public-header{
+    background:#30394d;
+    padding-top:16px;
+    height:114px;
+    border-bottom:2px solid #242b3a;
+}
+
+.public-header .header-logo{
+    float:left;
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background:url(../images/header-logo.png) no-repeat;
+}
+
+.public-header .header-nav{
+    float:left;
+    padding:40px 0 0 100px;
+    width:900px;
+    display:inline-block;
+}
+
+.public-header .header-nav li{
+    float:left;
+    padding-right:100px;
+}
+
+.public-header .header-nav li a{
+    width:100px;
+    color:#FFFFFF;
+    font-size:16px;
+}
+
+.public-header .header-nav li a:hover{
+    background-color: #cc210d;
+}
